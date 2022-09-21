@@ -1,5 +1,16 @@
 #IMAGEM{
-    TEXT-ALIGN:CENTER;
+   text-align:center;
+   border:5px;
+   border-style: solid;
+   border-color: purple;
+   border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+   background: black;
+   padding: 1px;
+   margin-left: 300px;
+   margin-right: 300px;
 }
  
 #LINK{
@@ -13,6 +24,27 @@ P{
      font-size:30;
      text-align:right;
 }
+
+#destaque {
+border: 5px;
+border-style: solid;
+border-color: green;
+border-radius: 40;
+padding: 10px;
+margin-left: 400px;
+margin-right:400px;
+background: yellow;
+}
+
+.imagens {
+   text-align:center;
+
+   
+}
+.listas {
+   background: black;
+}
+
 h1 {
      color:blue;
      text-align: center;
